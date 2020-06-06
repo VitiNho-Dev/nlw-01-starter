@@ -58,8 +58,9 @@
 }
 
 #page-home main p {
-    font-size: 24px;
+    font-size: 16px;
     line-height: 38px;
+    margin-top: 22px;
 }
 
 #page-home main a {

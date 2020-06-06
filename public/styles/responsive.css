@@ -1,6 +1,6 @@
 @media (max-width: 900px) {
     #page-home {
-        background-position-x: 70vw;
+        background-position-x: 700vw;
     }
 
     #page-home .content {
@@ -10,30 +10,112 @@
 
     #page-home header a {
         position: absolute;
-        bottom: 48px;
+        bottom: 40px;
 
-        left: 50%;
-        transform: translateX(-50%);
+        margin-top: 8px;
+        padding: 2px;
+
+        position: center;
+        transform: translateX(-20%);
     }
 
     #page-home main {
         align-items: center; 
     }
 
+    #page-home main a strong {
+        padding: 2px;
+        margin: 12px;
+    }
+
+    #modal .header h1 {
+        font-size: 20px;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    #modal .header a {
+        margin-right: 30px;
+    }
+
     #page-search-results .cards {
         grid-template-columns: 1fr;
+        align-items: center;
     }
 
     #page-search-results .cards img {
-        height: 250px;
+        height: 150px;
+    }
+
+    #page-search-results h1 {
+        font-size: 30px;
+    }
+
+    #page-search-results h3 {
+        font-size: 20px;
     }
 
     #page-create-point .field-group {
         flex-direction: column;
+        
     }
 
     #page-create-point .field-group .field + .field {
         margin-left: 0;
+    }
+
+    #page-creat-point form.field {
+        flex: 1;
+        display: grid;
+        grid-column: auto;
+    }
+
+    .itens-grid {
+        grid-template-columns: 1fr 1fr;
+        font-size: 16px;
+    }
+
+    .itens-grid li {
+        padding: 32px 18px 16px;
+    }
+
+    #page-home main h1 {
+        font-size: 34px;
+    }
+
+    form {
+        margin: 40px auto;
+        padding: 24px;
+    }
+
+    form h1 {
+        font-size: 24px;
+    }
+
+    form fieldset {
+        margin-top: 24px;
+    }
+
+    form legend h2 {
+        font-size: 18px;
+    }
+
+    form .field-group {
+        display: initial;
+    }
+
+    form input, select {
+        padding: 16px 16px;
+    }
+
+    form button {
+        width: 230px;
+    }
+}
+
+@media (max-width: 600px) {
+    #page-home main a strong {
+        font-size: 16px;
     }
 }
 
@@ -45,6 +127,6 @@
 
 @media (max-height: 760px) {
     #page-home {
-        background-position-y: 200px;
+        background-position-y: 20px;
     }
 }
