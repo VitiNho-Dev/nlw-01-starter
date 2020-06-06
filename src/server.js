@@ -97,4 +97,4 @@ server.get("/search", (req, res) => {
 })
 
 // ligar o servidor
-server.listen(process.env.PORT || 3333)
+server.listen(process.env.PORT || 3333) 
