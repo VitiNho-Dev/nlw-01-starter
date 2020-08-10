@@ -20,3 +20,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de resíduos de forma eficiente.
+
+## Front-end hospedado na Heroku 
+
+Clique em "Ecoleta" abaixo para vizualisar o projeto funcionando!
+
+- [Ecoleta](https://upload-next-level-week.herokuapp.com/)
+
+<br>
+
+<br>
